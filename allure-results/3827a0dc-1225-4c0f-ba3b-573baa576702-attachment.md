@@ -1,0 +1,47 @@
+# Page snapshot
+
+```yaml
+- link "Jupiter Toys":
+  - /url: "#"
+  - img
+  - text: Jupiter Toys
+- list:
+  - listitem:
+    - link "Home":
+      - /url: "#/home"
+  - listitem:
+    - link "Shop":
+      - /url: "#/shop"
+  - listitem:
+    - link "Contact":
+      - /url: "#/contact"
+- list:
+  - listitem:
+    - link "Login":
+      - /url: ""
+  - listitem:
+    - link "Cart (0)":
+      - /url: "#/cart"
+- strong: We welcome your feedback
+- text: "- tell it how it is."
+- group:
+  - text: Forename *
+  - textbox "Forename *"
+  - text: Surname
+  - textbox "Surname"
+  - text: Email *
+  - textbox "Email *"
+  - text: Your email address will only be used in reply to this message. We
+  - strong: never
+  - text: send spam email or give your email address to others. Telephone
+  - textbox "Telephone"
+  - text: Only provide your telephone number
+  - emphasis: if
+  - text: you want us to contact you this way. Message *
+  - textbox "Message *"
+- link "Submit":
+  - /url: ""
+- separator
+- contentinfo:
+  - paragraph: © Jupiter Toys 2025
+```

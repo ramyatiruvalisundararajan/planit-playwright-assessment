@@ -1,0 +1,88 @@
+# Page snapshot
+
+```yaml
+- link "Jupiter Toys":
+  - /url: "#"
+  - img
+  - text: Jupiter Toys
+- list:
+  - listitem:
+    - link "Home":
+      - /url: "#/home"
+  - listitem:
+    - link "Shop":
+      - /url: "#/shop"
+  - listitem:
+    - link "Contact":
+      - /url: "#/contact"
+- list:
+  - listitem:
+    - link "Login":
+      - /url: ""
+  - listitem:
+    - link "Cart (10)":
+      - /url: "#/cart"
+- paragraph:
+  - text: There are 10 items in your cart, you can
+  - link "Checkout":
+    - /url: "#/checkout/"
+  - text: or carry on
+  - link "Shopping":
+    - /url: "#/shop/"
+  - text: .
+- table:
+  - rowgroup:
+    - row "Item Price Quantity Subtotal Actions":
+      - cell "Item"
+      - cell "Price"
+      - cell "Quantity"
+      - cell "Subtotal"
+      - cell "Actions"
+  - rowgroup:
+    - row "Stuffed Frog $10.99 2 $21.98":
+      - cell "Stuffed Frog":
+        - img
+        - text: Stuffed Frog
+      - cell "$10.99"
+      - cell "2":
+        - spinbutton: "2"
+      - cell "$21.98"
+      - cell:
+        - link:
+          - /url: ""
+    - row "Fluffy Bunny $9.99 5 $49.95":
+      - cell "Fluffy Bunny":
+        - img
+        - text: Fluffy Bunny
+      - cell "$9.99"
+      - cell "5":
+        - spinbutton: "5"
+      - cell "$49.95"
+      - cell:
+        - link:
+          - /url: ""
+    - row "Valentine Bear $14.99 3 $44.97":
+      - cell "Valentine Bear":
+        - img
+        - text: Valentine Bear
+      - cell "$14.99"
+      - cell "3":
+        - spinbutton: "3"
+      - cell "$44.97"
+      - cell:
+        - link:
+          - /url: ""
+  - rowgroup:
+    - 'row "Total: 116.9"':
+      - 'cell "Total: 116.9"':
+        - strong: "Total: 116.9"
+    - row "Check Out Empty Cart":
+      - cell "Check Out Empty Cart":
+        - link "Check Out":
+          - /url: "#/checkout"
+        - link "Empty Cart":
+          - /url: ""
+- separator
+- contentinfo:
+  - paragraph: © Jupiter Toys 2025
+```

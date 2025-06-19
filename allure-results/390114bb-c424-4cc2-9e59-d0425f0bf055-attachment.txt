@@ -1,0 +1,3 @@
+Price text for Stuffed Frog: "$10.99"
+Price text for Fluffy Bunny: "$9.99"
+Price text for Valentine Bear: "$14.99"
