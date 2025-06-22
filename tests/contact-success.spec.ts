@@ -22,8 +22,6 @@ for (let i = 1; i <= 5; i++) {
     );
 
     await contact.submitBtn.click();
-
-    // ✅ Validate success message contains the dynamic name
     await expect(contact.successMsg).toBeVisible({ timeout: 10000 });
     await expect(contact.successMsg).toHaveText(
       new RegExp(`Thanks ${testData.forename}, we appreciate your feedback`, 'i'),
