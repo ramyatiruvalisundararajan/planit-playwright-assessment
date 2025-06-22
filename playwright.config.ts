@@ -6,9 +6,12 @@ export default defineConfig({
   forbidOnly: !!process.env.CI,
   retries: process.env.CI ? 2 : 0,
   workers: 1,
-  
 
-  reporter: [['list'], ['allure-playwright']],
+  reporter: [
+    ['list'],
+    ['allure-playwright'],
+    ['junit', { outputFile: 'test-results/results.xml' }]  
+  ],
 
   use: {
     baseURL: 'http://jupiter.cloud.planittesting.com',
