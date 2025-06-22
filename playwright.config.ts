@@ -25,21 +25,21 @@ export default defineConfig({
     {
       name: 'chromium',
       use: Object.assign({}, devices['Desktop Chrome'], {
-        headless: false,
+        headless: true,
         slowMo: 1500,
       }),
     },
     {
       name: 'firefox',
       use: Object.assign({}, devices['Desktop Firefox'], {
-        headless: false,
+        headless: true,
         slowMo: 500,
       }),
     },
     {
       name: 'webkit',
       use: Object.assign({}, devices['Desktop Safari'], {
-        headless: false,
+        headless: true,
         slowMo: 500,
       }),
     },

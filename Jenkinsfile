@@ -13,7 +13,7 @@ pipeline {
     }
     stage('Run Tests') {
       steps {
-        sh 'npx playwright test --headless --reporter=list,junit'
+        sh 'npx playwright test'
       }
     }
   }
